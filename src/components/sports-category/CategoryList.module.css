@@ -1,0 +1,50 @@
+.dropboxlayout{
+  margin: 20px;
+}
+.dropbox {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.filtercontainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.selectlist{
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  outline: none;
+  border: 1px solid blue;
+  width: 150px;
+  height: 30px;
+}
+.categorylist {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+.sportlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.itemcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.itemlabel {
+  font-weight: 600;
+  margin-right: 8px;
+  color: red;
+}
